@@ -17,6 +17,7 @@ from epidemiological_host import ContactResponse, make_hosts
 from constants import InitialCondition, Disease, Screen, SimColor, PreventativeMeasure, HostConfig
 from preventative_measures import PreventativeMeasures
 from stats import EpidemicStats
+import pandas as pd
 
 
 def build_border():
